@@ -100,8 +100,8 @@ public class DDNS {
     public static void main(String[] args) {
         //  设置鉴权参数，初始化客户端
         DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai",// 地域ID
-                "LTAI5tAYRK6Yvd84xTrPf57B",// 您的AccessKey ID
-                "6lIJLuFnmP5W1vXH7k6o8AzQc5693i");// 您的AccessKey Secret
+                "LTA4xTrPf57B",// 您的AccessKey ID
+                "6lIJLuFnm93i");// 您的AccessKey Secret
         IAcsClient client = new DefaultAcsClient(profile);
 
         DDNS ddns = new DDNS();

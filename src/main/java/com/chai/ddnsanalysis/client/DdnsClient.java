@@ -22,16 +22,16 @@ import java.util.List;
 public class DdnsClient {
     private final Logger logger= LoggerFactory.getLogger(this.getClass());
 
-    @Value("${ali.domain:cloudxunxian.cn}")
-    private String domain = "cloudxunxian.cn";
-    @Value("${ali.keyword:gitlab.cloudxunxian.cn}")
-    private String keyWord = "gitlab.cloudxunxian.cn";
-    @Value("${ali.access-key:LTAI5tAYRK6Yvd84xTrPf57B}")
-    private String accessKey = "LTAI5tAYRK6Yvd84xTrPf57B";
-    @Value("${ali.access-key-secret:6lIJLuFnmP5W1vXH7k6o8AzQc5693i}")
-    private String accessSecret = "6lIJLuFnmP5W1vXH7k6o8AzQc5693i";
-    @Value("${ali.endpoint:dns.aliyuncs.com}")
-    private String endpoint = "dns.aliyuncs.com";
+    @Value("${ali.domain:cloudn}")
+    private String domain = "cloudx";
+    @Value("${ali.keyword:gitlab.cloudxn}")
+    private String keyWord = "gitlab.cloudxn";
+    @Value("${ali.access-key:LTAI5tAYRK6Y57B}")
+    private String accessKey = "LTAI5tAYRK6f57B";
+    @Value("${ali.access-key-secret:6lIJLuFnmP5c5693i}")
+    private String accessSecret = "6lIJLuFnmP5Wc5693i";
+    @Value("${ali.endpoint:dns.aliym}")
+    private String endpoint = "dns.alim";
 
     private String currentDdnsIp="";
 
