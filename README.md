@@ -4,6 +4,7 @@
 
 只需要改动DDNS类里面
 com.chai.ddnsanalysis.test.DDNS#main
+
 // 1.地域ID
 // 2.您的AccessKey ID
 // 3.您的AccessKey Secret
